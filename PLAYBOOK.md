@@ -14,5 +14,6 @@ Weeks run Wednesday → Tuesday. The weekly run (Mondays) prepares the next Wedn
    - TikTok: 18:00, **`tiktokData.title` is required** — set it to the full caption text
    - `videoCoverMilliseconds: 1500`, `autoPublish: true`
    - text = caption + "\n\n" + cta[network] + "\n\n" + hashtags[network]
+   - Hashtags: Instagram max 5 (Instagram cap since Dec 2025, caption + first comment combined), TikTok 3–5, Facebook 1–2. Specific beats generic.
    - Download link: https://thesocialecho.app/#get (Facebook clickable; Instagram/TikTok "link in bio")
 8. Append the schedule table (with Metricool post ids) to `log.md`, commit, push.

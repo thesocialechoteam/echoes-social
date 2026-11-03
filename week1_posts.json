@@ -44,11 +44,8 @@
           "#echoes",
           "#leaveyourmark",
           "#voicenotes",
-          "#newapp",
           "#locationbased",
-          "#audiostories",
-          "#iphoneapps",
-          "#androidapps"
+          "#newapp"
         ],
         "facebook": [
           "#echoes",
@@ -90,10 +87,8 @@
         "instagram": [
           "#echoes",
           "#leaveyourmark",
-          "#3dmap",
-          "#placebased",
-          "#citywalks",
           "#hiddenstories",
+          "#citywalks",
           "#voicenotes"
         ],
         "facebook": [
@@ -136,10 +131,8 @@
           "#echoes",
           "#leaveyourmark",
           "#citywalk",
-          "#explore",
           "#voicenotes",
-          "#locationbased",
-          "#newapp"
+          "#locationbased"
         ],
         "facebook": [
           "#echoes"
@@ -181,7 +174,6 @@
           "#echoes",
           "#weekendchallenge",
           "#leaveyourmark",
-          "#weekendvibes",
           "#voicenotes",
           "#placesthatmatter"
         ],
@@ -224,11 +216,9 @@
         ],
         "instagram": [
           "#echoes",
-          "#AR",
           "#augmentedreality",
           "#reflections",
           "#leaveyourmark",
-          "#newfeature",
           "#arapp"
         ],
         "facebook": [
@@ -273,7 +263,6 @@
           "#privacy",
           "#ghostmode",
           "#leaveyourmark",
-          "#yourrules",
           "#voicenotes"
         ],
         "facebook": [
@@ -321,9 +310,7 @@
           "#echoes",
           "#leaveyourmark",
           "#futureself",
-          "#memories",
           "#voicenotes",
-          "#placesthatmatter",
           "#storytelling"
         ],
         "facebook": [
