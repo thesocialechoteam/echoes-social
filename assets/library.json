@@ -1,0 +1,18 @@
+{
+  "note": "Footage library for render2.py. Clips are cut from George's own app screen recording and his promo video, only in ranges with no third-party content (a TV showing a show was avoided/blurred) and no burnt-in promo text. All 1080x1920.",
+  "clips": {
+    "ar_portals":    {"dur": 1.2,  "fps": 60, "shows": "AR mode in a room: golden oval Reflection portals, golden rings on the floor with the user's avatar, app UI (record button, MAP, profile)", "slow_ok": "down to 0.45x"},
+    "ar_voicecard":  {"dur": 2.75, "fps": 60, "shows": "AR mode with an echo playback card: orange waveform, play button, 'Private' visibility tag; top area frosted (blurred)"},
+    "ar_reflection": {"dur": 11.2, "fps": 60, "shows": "AR mode by a window at night: big golden oval Reflection portal, orange spheres floating, rings on floor; 'TAP TO FILM A REFLECTION' near the end. Start from >= 0.9 (first second is a blurry pan)"},
+    "promo_hands":   {"dur": 0.95, "fps": 24, "shows": "Hands holding a phone with the echoes map and orange pins, night city (promo video)"},
+    "promo_aerial":  {"dur": 2.2,  "fps": 24, "shows": "Aerial night city covered in glowing orange echo pins (promo video)"},
+    "end_card":      {"dur": 2.5,  "fps": 24, "shows": "Brand end card: 'Echoes' logo, YOUR WORLD. YOUR STORIES., DOWNLOAD ECHOES, App Store + Google Play badges. Always the last 2.5s."}
+  },
+  "stills": {
+    "map_2d":             "2D dark map with golden echo markers clustered around the user's avatar",
+    "map_3d":             "3D dark map of lower Manhattan with orange labels, TAP TO ECHO and the orange record button",
+    "portal_waterfront":  "Person on a rainy night waterfront raising a phone to a glowing golden portal showing a sunset memory, beam to a ring on the ground (827x1470, upscaled on render)",
+    "portal_promenade":   "Golden portal over a wet promenade at night showing the same place by day, beam to a ring (686x1220, upscaled on render)"
+  },
+  "style": "Dark navy + amber/orange + cream. Text: Inter Display Bold, cream lines, last line amber, top scrim. Hook on screen from frame 0."
+}

@@ -13,7 +13,7 @@
       "id": "w1-01",
       "date": "2026-11-04",
       "theme": "intro",
-      "video": "w1-01_intro_v2.mp4",
+      "video": "w1-01_intro_v3.mp4",
       "screens": [
         [
           "What if your voice",
@@ -26,10 +26,6 @@
         [
           "The next person",
           "who passes by can hear it."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "What if your voice could stay somewhere?\n\nRecord a short voice note on echoes and it stays exactly where you recorded it — on that street corner, that bench, the top of that hill. Whoever walks by next can listen.",
@@ -51,13 +47,52 @@
           "#echoes",
           "#leaveyourmark"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "still": "portal_waterfront",
+            "dur": 3.0,
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              0,
+              -60
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 1.3,
+            "speed": 0.85
+          },
+          {
+            "clip": "ar_reflection",
+            "from": 0.4,
+            "dur": 1.3,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_voicecard",
+            "from": 0.1,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-02",
       "date": "2026-11-05",
       "theme": "place-not-feed",
-      "video": "w1-02_place_v2.mp4",
+      "video": "w1-02_place_v3.mp4",
       "screens": [
         [
           "Why does everything",
@@ -71,10 +106,6 @@
         [
           "A bench. A corner.",
           "A hilltop."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "Why does everything you post scroll away forever?\n\nAn echo doesn't. It lives on a 3D map of the world, pinned to the place where you said it — and you only find it by being there.",
@@ -95,13 +126,64 @@
         "facebook": [
           "#echoes"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "clip": "promo_aerial",
+            "from": 0.0,
+            "dur": 2.2,
+            "speed": 1.0
+          },
+          {
+            "still": "map_3d",
+            "dur": 0.8,
+            "zoom": [
+              1.1,
+              1.14
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "still": "map_3d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              0,
+              40
+            ]
+          }
+        ],
+        [
+          {
+            "still": "portal_promenade",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "pan": [
+              0,
+              -40
+            ]
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-03",
       "date": "2026-11-06",
       "theme": "echoes-nearby",
-      "video": "w1-03_nearby_v2.mp4",
+      "video": "w1-03_nearby_v3.mp4",
       "screens": [
         [
           "What did someone leave",
@@ -115,10 +197,6 @@
         [
           "Even with",
           "the app closed."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "What did someone leave on the corner you just passed?\n\nTurn on Echoes nearby and your phone lets you know when you walk past an echo — even with the app closed.\n\nIt's optional, and you can switch it off any time in Settings.",
@@ -139,13 +217,52 @@
         "facebook": [
           "#echoes"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "still": "map_2d",
+            "dur": 3.0,
+            "zoom": [
+              1.0,
+              1.18
+            ],
+            "pan": [
+              0,
+              60
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "promo_hands",
+            "from": 0.0,
+            "dur": 0.9,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_voicecard",
+            "from": 0.5,
+            "dur": 1.7,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 3.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-04",
       "date": "2026-11-07",
       "theme": "weekend-prompt",
-      "video": "w1-04_weekend_v2.mp4",
+      "video": "w1-04_weekend_v3.mp4",
       "screens": [
         [
           "Where would you",
@@ -159,10 +276,6 @@
         [
           "Then see",
           "who finds it."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "Where would you leave your voice this weekend?\n\nWeekend challenge: leave one echo somewhere that means something to you.\n\nYour favourite café. The park where you learned to ride a bike. The view you never get tired of.\n\nThen wait and see who finds it. Tell us in the comments where you left yours.",
@@ -184,13 +297,46 @@
           "#echoes",
           "#weekendchallenge"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "still": "portal_promenade",
+            "dur": 3.0,
+            "zoom": [
+              1.05,
+              1.0
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 2.6,
+            "speed": 0.45
+          }
+        ],
+        [
+          {
+            "clip": "ar_voicecard",
+            "from": 0.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-05",
       "date": "2026-11-08",
       "theme": "reflections",
-      "video": "w1-05_reflections_v2.mp4",
+      "video": "w1-05_reflections_v3.mp4",
       "screens": [
         [
           "What if a video",
@@ -204,10 +350,6 @@
         [
           "Walk there",
           "to watch it."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "What if a video only played where you filmed it?\n\nMeet Reflections — a short video (up to 10 seconds) that you record in AR and leave at the place where you filmed it.\n\nThe full video only plays in AR, near the spot. Everyone gets 3 free Reflections every 30 days.",
@@ -229,13 +371,40 @@
           "#echoes",
           "#AR"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 0.9,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 3.9,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 8.4,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-06",
       "date": "2026-11-09",
       "theme": "privacy-control",
-      "video": "w1-06_control_v2.mp4",
+      "video": "w1-06_control_v3.mp4",
       "screens": [
         [
           "Who should hear",
@@ -248,10 +417,6 @@
         [
           "Ghost mode:",
           "disappear from every map."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "Who should hear your voice? You decide.\n\nEvery echo can be public, friends only, or just for you — and you can change it later. Want a break? Turn on ghost mode and disappear from everyone's map.",
@@ -273,13 +438,52 @@
           "#echoes",
           "#privacy"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "clip": "ar_voicecard",
+            "from": 0.0,
+            "dur": 3.0,
+            "speed": 0.9
+          }
+        ],
+        [
+          {
+            "still": "map_2d",
+            "dur": 2.6,
+            "zoom": [
+              1.12,
+              1.0
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "still": "map_3d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              0,
+              -60
+            ]
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     },
     {
       "id": "w1-07",
       "date": "2026-11-10",
       "theme": "first-echo-ideas",
-      "video": "w1-07_ideas_v2.mp4",
+      "video": "w1-07_ideas_v3.mp4",
       "screens": [
         [
           "What would you say",
@@ -297,10 +501,6 @@
         [
           "A story on the street",
           "where you grew up."
-        ],
-        [
-          "echoes",
-          "leave your mark"
         ]
       ],
       "caption": "What would you say if you could leave it anywhere? A few ideas for your first echo:\n\n→ a note to your future self, at the top of a hill\n→ a secret tip at your favourite café\n→ a story on the street where you grew up\n→ a thank-you at the place someone helped you\n\nWhere would you leave yours?",
@@ -322,7 +522,54 @@
           "#echoes",
           "#leaveyourmark"
         ]
-      }
+      },
+      "shots": [
+        [
+          {
+            "still": "portal_waterfront",
+            "dur": 3.0,
+            "zoom": [
+              1.12,
+              1.0
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "still": "portal_promenade",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "pan": [
+              0,
+              -40
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 2.6,
+            "speed": 0.45
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 5.4,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "renderer": "render2.py"
     }
   ],
   "cta": {

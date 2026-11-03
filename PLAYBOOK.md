@@ -7,7 +7,7 @@ Weeks run Wednesday → Tuesday. The weekly run (Mondays) prepares the next Wedn
 3. Pull last week's results from Metricool (brand 7851174, timezone Europe/Bucharest); note what worked in `log.md`.
 4. Hook rule: every video opens with a QUESTION. The first screen is that question (2–3 short lines, ≤ ~22 characters each); render.py shows it large from frame 0 with no fade, so nobody scrolls past a black frame. The caption's first line is the same question.
 5. Write `weekN_posts.json` (same structure as week1: 7 posts, 3–4 on-screen text screens + end card, caption, hashtags per network, cta).
-6. `python3 render.py weekN_posts.json videos` → look at a few frames before pushing.
+6. `python3 render2.py weekN_posts.json videos` (real-footage style; every post needs a "shots" list per screen — see assets/library.json and week1_posts.json. render.py is the old cyan animation style, don't use it) → look at a few frames before pushing.
 7. Commit + push videos. Media URL: `https://raw.githubusercontent.com/thesocialechoteam/echoes-social/main/videos/<file>.mp4`
 8. Schedule one Metricool post per network per day (21 total), checking getScheduledPosts first to avoid duplicates:
    - Instagram: `instagramData.type = "REEL"`, 10:00
