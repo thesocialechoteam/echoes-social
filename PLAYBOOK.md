@@ -7,7 +7,8 @@ Weeks run Wednesday → Tuesday. The weekly run (Mondays) prepares the next Wedn
 3. Pull last week's results from Metricool (brand 7851174, timezone Europe/Bucharest), then run **Method A (growth audit)** below and write it into `log.md`.
 4. Hook rule: every video opens with a QUESTION. The first screen is that question (2–3 short lines, ≤ ~22 characters each), shown large from frame 0 with no fade, so nobody scrolls past. The caption's first line is the same question.
 5. Write `weekN_posts.json` (same structure as week1: 7 posts, hook + 2–3 screens, a "shots" list per screen, caption, hashtags per network, cta) using **Methods B, C, D, E** below.
-6. `python3 render2.py weekN_posts.json videos` (real-footage style; see assets/library.json and week1_posts.json. render.py is the old cyan animation style, don't use it) → look at a few frames before pushing.
+6. Real app look: check assets/library.json → app_reference. AI clips must not contradict the real UI; prefer mixing AI footage with at least one real app shot per video. Choose the end card per post with "end": "end_card" or "end_card_b".
+   `python3 render2.py weekN_posts.json videos` (real-footage style; see assets/library.json and week1_posts.json. render.py is the old cyan animation style, don't use it) → look at a few frames before pushing.
 7. Commit + push videos. Media URL: `https://raw.githubusercontent.com/thesocialechoteam/echoes-social/main/videos/<file>.mp4`
 8. Schedule one Metricool post per network per day (21 total), checking getScheduledPosts first to avoid duplicates:
    - Instagram: `instagramData.type = "REEL"`, 10:00
@@ -16,6 +17,7 @@ Weeks run Wednesday → Tuesday. The weekly run (Mondays) prepares the next Wedn
    - `videoCoverMilliseconds: 1500`, `autoPublish: true`
    - text = caption + "\n\n" + cta[network] + "\n\n" + hashtags[network]
    - Hashtags: Instagram max 5 (Instagram cap since Dec 2025, caption + first comment combined), TikTok 3–5, Facebook 1–2. Specific beats generic.
+   - AI label: if the post's shots use any asset with "ai": true in assets/library.json (render2.py prints ai_label=True), set instagramData.isAiGenerated=true and tiktokData.isAigc=true. Facebook has no field for it.
    - Download link: https://thesocialecho.app/#get (Facebook clickable; Instagram/TikTok "link in bio")
 9. Append the schedule table (with Metricool post ids) to `log.md`, commit, push.
 

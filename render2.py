@@ -184,8 +184,20 @@ def frames(post):
                     over(f, s, W / 2, top + j * lh + dy, a)
                 yield np.clip(f, 0, 255).astype(np.uint8)
                 k += 1
-    for f in clip_frames("end_card", 0.0, int(round(END_DUR * FPS))):
+    for f in clip_frames(post.get("end", "end_card"), 0.0, int(round(END_DUR * FPS))):
         yield f.astype(np.uint8)
+
+
+def uses_ai(post):
+    """True if any shot (not counting the end card) uses an AI-generated asset (see assets/library.json)."""
+    lib = json.load(open(os.path.join(HERE, "assets", "library.json")))
+    for screen in post["shots"]:
+        for sh in screen:
+            if "clip" in sh and lib["clips"].get(sh["clip"], {}).get("ai"):
+                return True
+            if "still" in sh and lib["stills"].get(sh["still"], {}).get("ai"):
+                return True
+    return False
 
 
 def render(post, seed, outdir):
@@ -208,7 +220,7 @@ def render(post, seed, outdir):
     if r.returncode:
         raise SystemExit("mux failed")
     os.replace(tf, final); os.remove(tv); os.remove(ta)
-    print(f"{post['id']}: {final} ({n / FPS:.1f}s)", flush=True)
+    print(f"{post['id']}: {final} ({n / FPS:.1f}s) ai_label={uses_ai(post)}", flush=True)
 
 
 def main():

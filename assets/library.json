@@ -1,18 +1,158 @@
 {
-  "note": "Footage library for render2.py. Clips are cut from George's own app screen recording and his promo video, only in ranges with no third-party content (a TV showing a show was avoided/blurred) and no burnt-in promo text. All 1080x1920.",
+  "note": "Footage library for render2.py. 'ai': true = AI-generated (George's OpenArt/Veo/other generations); false = his real app screen recordings/screenshots. Excluded on purpose: a TV showing a third-party show in his room recording, burnt-in promo text, generator watermarks (Veo mark cropped off), and AI clips in the cyan/neon or blue-UI style he rejected.",
   "clips": {
-    "ar_portals":    {"dur": 1.2,  "fps": 60, "shows": "AR mode in a room: golden oval Reflection portals, golden rings on the floor with the user's avatar, app UI (record button, MAP, profile)", "slow_ok": "down to 0.45x"},
-    "ar_voicecard":  {"dur": 2.75, "fps": 60, "shows": "AR mode with an echo playback card: orange waveform, play button, 'Private' visibility tag; top area frosted (blurred)"},
-    "ar_reflection": {"dur": 11.2, "fps": 60, "shows": "AR mode by a window at night: big golden oval Reflection portal, orange spheres floating, rings on floor; 'TAP TO FILM A REFLECTION' near the end. Start from >= 0.9 (first second is a blurry pan)"},
-    "promo_hands":   {"dur": 0.95, "fps": 24, "shows": "Hands holding a phone with the echoes map and orange pins, night city (promo video)"},
-    "promo_aerial":  {"dur": 2.2,  "fps": 24, "shows": "Aerial night city covered in glowing orange echo pins (promo video)"},
-    "end_card":      {"dur": 2.5,  "fps": 24, "shows": "Brand end card: 'Echoes' logo, YOUR WORLD. YOUR STORIES., DOWNLOAD ECHOES, App Store + Google Play badges. Always the last 2.5s."}
+    "ar_portals": {
+      "dur": 1.2,
+      "fps": 60,
+      "shows": "AR mode in a room: golden oval Reflection portals, golden rings on the floor with the user's avatar, app UI (record button, MAP, profile)",
+      "slow_ok": "down to 0.45x",
+      "ai": false
+    },
+    "ar_voicecard": {
+      "dur": 2.75,
+      "fps": 60,
+      "shows": "AR mode with an echo playback card: orange waveform, play button, 'Private' visibility tag; top area frosted (blurred)",
+      "ai": false
+    },
+    "ar_reflection": {
+      "dur": 11.2,
+      "fps": 60,
+      "shows": "AR mode by a window at night: big golden oval Reflection portal, orange spheres floating, rings on floor; 'TAP TO FILM A REFLECTION' near the end. Start from >= 0.9 (first second is a blurry pan)",
+      "ai": false
+    },
+    "promo_hands": {
+      "dur": 0.95,
+      "fps": 24,
+      "shows": "Hands holding a phone with the echoes map and orange pins, night city (promo video)",
+      "ai": true
+    },
+    "promo_aerial": {
+      "dur": 2.2,
+      "fps": 24,
+      "shows": "Aerial night city covered in glowing orange echo pins (promo video)",
+      "ai": true
+    },
+    "end_card": {
+      "dur": 2.5,
+      "fps": 24,
+      "shows": "Brand end card: 'Echoes' logo, YOUR WORLD. YOUR STORIES., DOWNLOAD ECHOES, App Store + Google Play badges. Always the last 2.5s.",
+      "ai": true
+    },
+    "ai_woman_smile": {
+      "dur": 1.6,
+      "fps": 30,
+      "ai": true,
+      "shows": "Woman smiling at her phone on a rainy night street, warm bokeh"
+    },
+    "ai_orb_pavement": {
+      "dur": 1.6,
+      "fps": 30,
+      "ai": true,
+      "shows": "A glowing golden orb (an echo) sitting on wet pavement at night"
+    },
+    "ai_waterfront": {
+      "dur": 2.85,
+      "fps": 30,
+      "ai": true,
+      "shows": "Man at a night waterfront railing with his phone, golden orbs along the railing, city skyline"
+    },
+    "ai_beanie_raise": {
+      "dur": 8.35,
+      "fps": 30,
+      "ai": true,
+      "shows": "Woman in an amber beanie raises her phone toward a golden orb on a rainy city street, then smiles in wonder"
+    },
+    "ai_street_orb": {
+      "dur": 3.6,
+      "fps": 24,
+      "ai": true,
+      "shows": "Young man on a city street; a golden waveform orb appears beside him and he reaches toward it with his phone (720p source)"
+    },
+    "ai_phone_map": {
+      "dur": 2.85,
+      "fps": 24,
+      "ai": true,
+      "shows": "Hand holding a phone with an app-like dark map, white/orange dots and an orange button, red bokeh (720p). UI is AI-made but close to the real map"
+    },
+    "ai_bench_ui": {
+      "dur": 2.1,
+      "fps": 24,
+      "ai": true,
+      "shows": "Full-screen AI rendering of the app's AR view: park bench at night, an echo orb with a voice card and orange waveform, orange record button (close to the real UI)"
+    },
+    "ai_woman_listen": {
+      "dur": 3.6,
+      "fps": 24,
+      "ai": true,
+      "shows": "Woman on a night street looking at her phone, then listening with earbuds and smiling"
+    },
+    "ai_finger_record": {
+      "dur": 0.55,
+      "fps": 24,
+      "ai": true,
+      "shows": "Finger pressing the orange waveform record button (close-up), golden ripple"
+    },
+    "ai_city_grid": {
+      "dur": 8.0,
+      "fps": 24,
+      "ai": true,
+      "layout": "framed",
+      "shows": "Landscape clip, framed: hand holds a phone over a city panorama at dusk; golden grid and waveform lines rise from the city"
+    },
+    "ai_cafe_wave": {
+      "dur": 7.7,
+      "fps": 24,
+      "ai": true,
+      "layout": "framed",
+      "shows": "Landscape clip, framed: hands hold a phone in a café; golden waveforms appear across the room"
+    },
+    "ai_forest_wave": {
+      "dur": 8.0,
+      "fps": 24,
+      "ai": true,
+      "layout": "framed",
+      "shows": "Landscape clip, framed: snowy redwood forest, golden waveform wraps a giant tree, person in an orange jacket"
+    },
+    "ai_alley_orb": {
+      "dur": 6.2,
+      "fps": 24,
+      "ai": true,
+      "layout": "framed",
+      "shows": "Landscape clip, framed: hands hold a phone in a brick alley; golden waveform across the street, a fiery orb on screen"
+    },
+    "ai_couple_bubble": {
+      "dur": 8.0,
+      "fps": 24,
+      "ai": true,
+      "layout": "framed",
+      "shows": "Landscape clip, framed: older couple under an umbrella outside a café; a pink-gold sphere with a waveform forms around them. Pink tint — use sparingly"
+    },
+    "end_card_b": {
+      "dur": 2.5,
+      "fps": 30,
+      "ai": true,
+      "shows": "Alternative end card: lowercase 'echoes', leave your mark, thesocialecho.app, App Store + Google Play badges over warm bokeh and a golden orb"
+    }
   },
   "stills": {
-    "map_2d":             "2D dark map with golden echo markers clustered around the user's avatar",
-    "map_3d":             "3D dark map of lower Manhattan with orange labels, TAP TO ECHO and the orange record button",
-    "portal_waterfront":  "Person on a rainy night waterfront raising a phone to a glowing golden portal showing a sunset memory, beam to a ring on the ground (827x1470, upscaled on render)",
-    "portal_promenade":   "Golden portal over a wet promenade at night showing the same place by day, beam to a ring (686x1220, upscaled on render)"
+    "map_2d": {
+      "shows": "2D dark map with golden echo markers clustered around the user's avatar",
+      "ai": false
+    },
+    "map_3d": {
+      "shows": "3D dark map of lower Manhattan with orange labels, TAP TO ECHO and the orange record button",
+      "ai": false
+    },
+    "portal_waterfront": {
+      "shows": "Person on a rainy night waterfront raising a phone to a glowing golden portal showing a sunset memory, beam to a ring on the ground (827x1470, upscaled on render)",
+      "ai": true
+    },
+    "portal_promenade": {
+      "shows": "Golden portal over a wet promenade at night showing the same place by day, beam to a ring (686x1220, upscaled on render)",
+      "ai": true
+    }
   },
-  "style": "Dark navy + amber/orange + cream. Text: Inter Display Bold, cream lines, last line amber, top scrim. Hook on screen from frame 0."
+  "style": "Dark navy + amber/orange + cream. Text: Inter Display Bold, cream lines, last line amber, top scrim. Hook on screen from frame 0.",
+  "app_reference": "What the real echoes app looks like (from George's own screenshots/recordings, Nov 2026) — AI clips must not contradict it: dark navy map with gold coin-like echo markers with play icons and white dots, the user's avatar in a pin; round dark buttons with amber icons (search, friends, bell, settings) and a 'Sensing… 100–150m · N echoes' pill at top; a big orange record button with a white waveform at the bottom, AR button bottom-left, profile bottom-right, 'TAP TO ECHO'. AR mode: golden oval Reflection portals, golden rings on the floor with avatars, orange spheres, 'AURAL SPACE ACTIVE', 'TAP TO FILM A REFLECTION'. Voice card: orange waveform, amber play button, visibility tag (e.g. Private). Brand: lowercase 'echoes' wordmark in cream (also an 'Echoes' logo with a pin as the o), amber/orange on navy. Never cyan/neon or blue waveforms.",
+  "ai_label_rule": "If any shot of a post uses an asset with ai=true (end cards alone don't count), schedule its Instagram post with instagramData.isAiGenerated=true and its TikTok post with tiktokData.isAigc=true. Facebook has no field for it in Metricool."
 }
