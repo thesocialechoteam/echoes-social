@@ -14,16 +14,45 @@
       "theme": "intro",
       "video": "w1-01_intro.mp4",
       "screens": [
-        ["What if your voice", "could stay somewhere?"],
-        ["Record a short voice note.", "It stays exactly where you are."],
-        ["The next person", "who passes by can hear it."],
-        ["echoes", "leave your mark"]
+        [
+          "What if your voice",
+          "could stay somewhere?"
+        ],
+        [
+          "Record a short voice note.",
+          "It stays exactly where you are."
+        ],
+        [
+          "The next person",
+          "who passes by can hear it."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
-      "caption": "What if your voice could stay somewhere?\n\nRecord a short voice note on echoes and it stays exactly where you recorded it — on that street corner, that bench, the top of that hill. Whoever walks by next can listen.\n\nFree on iPhone & Android.",
+      "caption": "What if your voice could stay somewhere?\n\nRecord a short voice note on echoes and it stays exactly where you recorded it — on that street corner, that bench, the top of that hill. Whoever walks by next can listen.",
       "hashtags": {
-        "tiktok": ["#echoes", "#voicenotes", "#newapp", "#leaveyourmark"],
-        "instagram": ["#echoes", "#leaveyourmark", "#voicenotes", "#newapp", "#locationbased", "#audiostories", "#iphoneapps", "#androidapps"],
-        "facebook": ["#echoes", "#leaveyourmark"]
+        "tiktok": [
+          "#echoes",
+          "#voicenotes",
+          "#newapp",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#leaveyourmark",
+          "#voicenotes",
+          "#newapp",
+          "#locationbased",
+          "#audiostories",
+          "#iphoneapps",
+          "#androidapps"
+        ],
+        "facebook": [
+          "#echoes",
+          "#leaveyourmark"
+        ]
       }
     },
     {
@@ -32,16 +61,43 @@
       "theme": "place-not-feed",
       "video": "w1-02_place.mp4",
       "screens": [
-        ["Not in a chat.", "Not in a feed that scrolls away."],
-        ["On the map.", "Right where it happened."],
-        ["A bench. A corner.", "A hilltop."],
-        ["echoes", "leave your mark"]
+        [
+          "Not in a chat.",
+          "Not in a feed that scrolls away."
+        ],
+        [
+          "On the map.",
+          "Right where it happened."
+        ],
+        [
+          "A bench. A corner.",
+          "A hilltop."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "Most of what we post disappears into a feed.\n\nAn echo doesn't. It lives on a 3D map of the world, pinned to the place where you said it — and you only find it by being there.",
       "hashtags": {
-        "tiktok": ["#echoes", "#leaveyourmark", "#3dmap", "#appoftheday"],
-        "instagram": ["#echoes", "#leaveyourmark", "#3dmap", "#placebased", "#citywalks", "#hiddenstories", "#voicenotes"],
-        "facebook": ["#echoes"]
+        "tiktok": [
+          "#echoes",
+          "#leaveyourmark",
+          "#3dmap",
+          "#appoftheday"
+        ],
+        "instagram": [
+          "#echoes",
+          "#leaveyourmark",
+          "#3dmap",
+          "#placebased",
+          "#citywalks",
+          "#hiddenstories",
+          "#voicenotes"
+        ],
+        "facebook": [
+          "#echoes"
+        ]
       }
     },
     {
@@ -50,16 +106,43 @@
       "theme": "echoes-nearby",
       "video": "w1-03_nearby.mp4",
       "screens": [
-        ["You walk past a corner.", "Your phone buzzes."],
-        ["Someone left", "an echo here."],
-        ["Even with", "the app closed."],
-        ["echoes", "leave your mark"]
+        [
+          "You walk past a corner.",
+          "Your phone buzzes."
+        ],
+        [
+          "Someone left",
+          "an echo here."
+        ],
+        [
+          "Even with",
+          "the app closed."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "Turn on Echoes nearby and your phone lets you know when you walk past an echo — even with the app closed.\n\nIt's optional, and you can switch it off any time in Settings.",
       "hashtags": {
-        "tiktok": ["#echoes", "#leaveyourmark", "#citywalk", "#voicenotes"],
-        "instagram": ["#echoes", "#leaveyourmark", "#citywalk", "#explore", "#voicenotes", "#locationbased", "#newapp"],
-        "facebook": ["#echoes"]
+        "tiktok": [
+          "#echoes",
+          "#leaveyourmark",
+          "#citywalk",
+          "#voicenotes"
+        ],
+        "instagram": [
+          "#echoes",
+          "#leaveyourmark",
+          "#citywalk",
+          "#explore",
+          "#voicenotes",
+          "#locationbased",
+          "#newapp"
+        ],
+        "facebook": [
+          "#echoes"
+        ]
       }
     },
     {
@@ -68,16 +151,43 @@
       "theme": "weekend-prompt",
       "video": "w1-04_weekend.mp4",
       "screens": [
-        ["This weekend:", "leave one echo."],
-        ["Somewhere that", "means something to you."],
-        ["Then see", "who finds it."],
-        ["echoes", "leave your mark"]
+        [
+          "This weekend:",
+          "leave one echo."
+        ],
+        [
+          "Somewhere that",
+          "means something to you."
+        ],
+        [
+          "Then see",
+          "who finds it."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "Weekend challenge: leave one echo somewhere that means something to you.\n\nYour favourite café. The park where you learned to ride a bike. The view you never get tired of.\n\nThen wait and see who finds it. Tell us in the comments where you left yours.",
       "hashtags": {
-        "tiktok": ["#echoes", "#weekendchallenge", "#leaveyourmark", "#voicenote"],
-        "instagram": ["#echoes", "#weekendchallenge", "#leaveyourmark", "#weekendvibes", "#voicenotes", "#placesthatmatter"],
-        "facebook": ["#echoes", "#weekendchallenge"]
+        "tiktok": [
+          "#echoes",
+          "#weekendchallenge",
+          "#leaveyourmark",
+          "#voicenote"
+        ],
+        "instagram": [
+          "#echoes",
+          "#weekendchallenge",
+          "#leaveyourmark",
+          "#weekendvibes",
+          "#voicenotes",
+          "#placesthatmatter"
+        ],
+        "facebook": [
+          "#echoes",
+          "#weekendchallenge"
+        ]
       }
     },
     {
@@ -86,16 +196,44 @@
       "theme": "reflections",
       "video": "w1-05_reflections.mp4",
       "screens": [
-        ["Reflections:", "10 seconds of video."],
-        ["Left in AR,", "at the place you recorded it."],
-        ["It only plays", "when someone is there."],
-        ["echoes", "leave your mark"]
+        [
+          "Reflections:",
+          "10 seconds of video."
+        ],
+        [
+          "Left in AR,",
+          "at the place you recorded it."
+        ],
+        [
+          "It only plays",
+          "when someone is there."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "Meet Reflections — a short video (up to 10 seconds) that you record in AR and leave at the place where you filmed it.\n\nThe full video only plays in AR, near the spot. Everyone gets 3 free Reflections every 30 days.",
       "hashtags": {
-        "tiktok": ["#echoes", "#AR", "#augmentedreality", "#leaveyourmark"],
-        "instagram": ["#echoes", "#AR", "#augmentedreality", "#reflections", "#leaveyourmark", "#newfeature", "#arapp"],
-        "facebook": ["#echoes", "#AR"]
+        "tiktok": [
+          "#echoes",
+          "#AR",
+          "#augmentedreality",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#AR",
+          "#augmentedreality",
+          "#reflections",
+          "#leaveyourmark",
+          "#newfeature",
+          "#arapp"
+        ],
+        "facebook": [
+          "#echoes",
+          "#AR"
+        ]
       }
     },
     {
@@ -104,16 +242,43 @@
       "theme": "privacy-control",
       "video": "w1-06_control.mp4",
       "screens": [
-        ["Everyone.", "Friends. Only you."],
-        ["You choose who hears", "each echo."],
-        ["Ghost mode:", "disappear from every map."],
-        ["echoes", "leave your mark"]
+        [
+          "Everyone.",
+          "Friends. Only you."
+        ],
+        [
+          "You choose who hears",
+          "each echo."
+        ],
+        [
+          "Ghost mode:",
+          "disappear from every map."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "You decide who sees you.\n\nEvery echo can be public, friends only, or just for you — and you can change it later. Want a break? Turn on ghost mode and disappear from everyone's map.",
       "hashtags": {
-        "tiktok": ["#echoes", "#privacy", "#ghostmode", "#leaveyourmark"],
-        "instagram": ["#echoes", "#privacy", "#ghostmode", "#leaveyourmark", "#yourrules", "#voicenotes"],
-        "facebook": ["#echoes", "#privacy"]
+        "tiktok": [
+          "#echoes",
+          "#privacy",
+          "#ghostmode",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#privacy",
+          "#ghostmode",
+          "#leaveyourmark",
+          "#yourrules",
+          "#voicenotes"
+        ],
+        "facebook": [
+          "#echoes",
+          "#privacy"
+        ]
       }
     },
     {
@@ -122,17 +287,48 @@
       "theme": "first-echo-ideas",
       "video": "w1-07_ideas.mp4",
       "screens": [
-        ["Ideas for", "your first echo:"],
-        ["A message for your", "future self, at the top of a hill."],
-        ["A secret tip", "at your favourite café."],
-        ["A story on the street", "where you grew up."],
-        ["echoes", "leave your mark"]
+        [
+          "Ideas for",
+          "your first echo:"
+        ],
+        [
+          "A message for your",
+          "future self, at the top of a hill."
+        ],
+        [
+          "A secret tip",
+          "at your favourite café."
+        ],
+        [
+          "A story on the street",
+          "where you grew up."
+        ],
+        [
+          "echoes",
+          "leave your mark"
+        ]
       ],
       "caption": "Not sure what to say in your first echo? A few ideas:\n\n→ a note to your future self, at the top of a hill\n→ a secret tip at your favourite café\n→ a story on the street where you grew up\n→ a thank-you at the place someone helped you\n\nWhere would you leave yours?",
       "hashtags": {
-        "tiktok": ["#echoes", "#leaveyourmark", "#ideas", "#voicenote"],
-        "instagram": ["#echoes", "#leaveyourmark", "#futureself", "#memories", "#voicenotes", "#placesthatmatter", "#storytelling"],
-        "facebook": ["#echoes", "#leaveyourmark"]
+        "tiktok": [
+          "#echoes",
+          "#leaveyourmark",
+          "#ideas",
+          "#voicenote"
+        ],
+        "instagram": [
+          "#echoes",
+          "#leaveyourmark",
+          "#futureself",
+          "#memories",
+          "#voicenotes",
+          "#placesthatmatter",
+          "#storytelling"
+        ],
+        "facebook": [
+          "#echoes",
+          "#leaveyourmark"
+        ]
       }
     }
   ],
