@@ -22,6 +22,8 @@ F_LIGHT = FONT_DIR + "InterDisplay-Light.otf"
 ORB_C = (540, 700)
 TEXT_Y = 1270
 SCREEN_DUR = 2.5
+HOOK_DUR = 2.9      # the opening question stays a little longer
+HOOK_SIZE = 88
 END_DUR = 3.4
 
 
@@ -162,12 +164,13 @@ class Post:
 
         screens = post["screens"]
         self.text_screens = screens[:-1]
-        self.sprites = []
-        for lines in self.text_screens:
-            size = fit_size(lines, F_HEAD, 74)
-            self.sprites.append([text_sprite(l, F_HEAD, size) for l in lines])
-            self.line_h = int(size * 1.28)
-        self.size_lines = [fit_size(l, F_HEAD, 74) for l in self.text_screens]
+        # screen 0 is the hook question: bigger, on screen from the very first frame, held a bit longer
+        self.size_lines = [fit_size(l, F_HEAD, HOOK_SIZE if i == 0 else 74, max_w=900 if i == 0 else 860)
+                           for i, l in enumerate(self.text_screens)]
+        self.sprites = [[text_sprite(l, F_HEAD, self.size_lines[i], glow=12 if i == 0 else 10) for l in lines]
+                        for i, lines in enumerate(self.text_screens)]
+        self.durs = [HOOK_DUR] + [SCREEN_DUR] * (len(self.text_screens) - 1)
+        self.starts = [sum(self.durs[:i]) for i in range(len(self.durs))]
         word = screens[-1][0]
         self.word = word
         self.letters = [text_sprite(ch, F_WORD, 168, glow=14, glow_strength=1.1) for ch in word]
@@ -177,7 +180,7 @@ class Post:
         self.avail = text_sprite("free on iPhone & Android", F_LIGHT, 36, tracking=2, glow=6,
                                  glow_strength=0.5, color=(150, 238, 250))
         self.n_text = len(self.text_screens)
-        self.end_start = self.n_text * SCREEN_DUR
+        self.end_start = sum(self.durs)
         self.duration = self.end_start + END_DUR
 
     def frame(self, t):
@@ -209,6 +212,7 @@ class Post:
 
         # orb with breathing pulse; flare on end card
         pulse = 0.9 + 0.12 * math.sin(t * 2 * math.pi / 2.5)
+        pulse += 0.5 * math.exp(-t * 2.5)                    # flare on the first frames to catch the eye
         if t >= self.end_start:
             e = t - self.end_start
             pulse += 0.45 * math.exp(-e * 2.2)
@@ -216,19 +220,22 @@ class Post:
 
         # text screens
         if t < self.end_start:
-            i = int(t // SCREEN_DUR)
-            lt = t - i * SCREEN_DUR
+            i = max(k for k, s0 in enumerate(self.starts) if s0 <= t)
+            lt = t - self.starts[i]
+            dur = self.durs[i]
             sprs = self.sprites[i]
             line_h = int(self.size_lines[i] * 1.3)
             n = len(sprs)
             top = TEXT_Y - (n - 1) * line_h / 2
             for j, s in enumerate(sprs):
                 d = j * 0.14
-                a_in = ease((lt - d) / 0.45)
-                a_out = 1 - ease((lt - (SCREEN_DUR - 0.38)) / 0.32)
-                a = a_in * a_out
-                rise = (1 - ease((lt - d) / 0.55)) * 26
-                over_at(f, s, W / 2, top + j * line_h + rise, a)
+                a_out = 1 - ease((lt - (dur - 0.38)) / 0.32)
+                if i == 0:                                   # hook: fully readable at frame 0, no fade or rise
+                    a_in, rise = 1.0, 0.0
+                else:
+                    a_in = ease((lt - d) / 0.45)
+                    rise = (1 - ease((lt - d) / 0.55)) * 26
+                over_at(f, s, W / 2, top + j * line_h + rise, a_in * a_out)
         else:
             e = t - self.end_start
             total = sum(self.letter_adv) - 10
@@ -245,14 +252,14 @@ class Post:
             over_at(f, self.tagline, W / 2, 1385 + (1 - ease((e - 1.05) / 0.5)) * 18, ease((e - 1.05) / 0.5))
             over_at(f, self.avail, W / 2, 1480, ease((e - 1.5) / 0.5) * 0.95)
 
-        # global fade in / out
-        g = min(1.0, t / 0.35) * min(1.0, (self.duration - t) / 0.3)
+        # fade out only: the first frame is already bright, so the scroll stops on something
+        g = min(1.0, (self.duration - t) / 0.3)
         f *= max(g, 0)
         return np.clip(f, 0, 255).astype(np.uint8)
 
 
 # ---------- audio ----------
-def make_audio(path, duration, n_text, end_start, seed, sr=48000):
+def make_audio(path, duration, starts, end_start, seed, sr=48000):
     rng = np.random.default_rng(seed)
     n = int(duration * sr)
     t = np.arange(n) / sr
@@ -262,7 +269,7 @@ def make_audio(path, duration, n_text, end_start, seed, sr=48000):
         det = fr * 1.003
         lfo = 0.75 + 0.25 * np.sin(2 * np.pi * t * rng.uniform(0.08, 0.2) + rng.uniform(0, 6))
         out += amp * lfo * (np.sin(2 * np.pi * fr * t) + 0.6 * np.sin(2 * np.pi * det * t + 1))
-    env = np.minimum(1, t / 1.2) * np.minimum(1, (duration - t) / 0.6)
+    env = np.minimum(1, t / 0.15) * np.minimum(1, (duration - t) / 0.6)
     out *= env
 
     def ping(at, freq, gain, echoes=4, delay=0.32, fb=0.45):
@@ -277,8 +284,8 @@ def make_audio(path, duration, n_text, end_start, seed, sr=48000):
             att = np.minimum(1, tt / 0.004)
             out[i0:i0 + m] += tone * att * gain * (fb ** k)
 
-    for i in range(n_text):
-        ping(i * SCREEN_DUR + 0.05, [880, 987.77, 1108.73, 1318.51][i % 4], 0.18)
+    for i, s0 in enumerate(starts):
+        ping(s0 + (0.0 if i == 0 else 0.05), [880, 987.77, 1108.73, 1318.51][i % 4], 0.22 if i == 0 else 0.18)
     pent = [659.25, 739.99, 880, 987.77, 1108.73, 1318.51, 1479.98]
     for j in range(6):
         ping(end_start + 0.15 + j * 0.13, pent[j % len(pent)], 0.11, echoes=3, delay=0.24, fb=0.4)
@@ -308,7 +315,7 @@ def render(post, seed, outdir):
     proc.stdin.close()
     if proc.wait() != 0:
         raise SystemExit(f"video encode failed for {post['id']}")
-    make_audio(tmp_a, nframes / FPS, p.n_text, p.end_start, seed)
+    make_audio(tmp_a, nframes / FPS, p.starts, p.end_start, seed)
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp_v, "-i", tmp_a, "-map", "0:v", "-map", "1:a",
                         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", tmp_f])
     if r.returncode != 0:
