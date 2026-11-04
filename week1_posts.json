@@ -13,7 +13,7 @@
       "id": "w1-01",
       "date": "2026-11-04",
       "theme": "intro",
-      "video": "w1-01_intro_v3.mp4",
+      "video": "w1-01_intro_v4.mp4",
       "screens": [
         [
           "What if your voice",
@@ -51,48 +51,49 @@
       "shots": [
         [
           {
-            "still": "portal_waterfront",
+            "clip": "ai_street_orb",
+            "from": 0.2,
             "dur": 3.0,
-            "zoom": [
-              1.0,
-              1.1
-            ],
-            "pan": [
-              0,
-              -60
-            ]
-          }
-        ],
-        [
-          {
-            "clip": "ar_portals",
-            "from": 0.0,
-            "dur": 1.3,
-            "speed": 0.85
-          },
-          {
-            "clip": "ar_reflection",
-            "from": 0.4,
-            "dur": 1.3,
             "speed": 1.0
           }
         ],
         [
           {
+            "clip": "ai_finger_record",
+            "from": 0.0,
+            "dur": 0.55,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 2.05,
+            "speed": 0.55
+          }
+        ],
+        [
+          {
+            "clip": "ai_woman_listen",
+            "from": 1.8,
+            "dur": 1.3,
+            "speed": 1.0
+          },
+          {
             "clip": "ar_voicecard",
-            "from": 0.1,
-            "dur": 2.6,
+            "from": 0.3,
+            "dur": 1.3,
             "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card_b"
     },
     {
       "id": "w1-02",
       "date": "2026-11-05",
       "theme": "place-not-feed",
-      "video": "w1-02_place_v3.mp4",
+      "video": "w1-02_place_v4.mp4",
       "screens": [
         [
           "Why does everything",
@@ -130,22 +131,10 @@
       "shots": [
         [
           {
-            "clip": "promo_aerial",
-            "from": 0.0,
-            "dur": 2.2,
+            "clip": "ai_city_grid",
+            "from": 1.0,
+            "dur": 3.0,
             "speed": 1.0
-          },
-          {
-            "still": "map_3d",
-            "dur": 0.8,
-            "zoom": [
-              1.1,
-              1.14
-            ],
-            "pan": [
-              0,
-              0
-            ]
           }
         ],
         [
@@ -164,26 +153,33 @@
         ],
         [
           {
-            "still": "portal_promenade",
-            "dur": 2.6,
-            "zoom": [
-              1.0,
-              1.08
-            ],
-            "pan": [
-              0,
-              -40
-            ]
+            "clip": "ai_bench_ui",
+            "from": 0.0,
+            "dur": 0.9,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_orb_pavement",
+            "from": 0.0,
+            "dur": 0.85,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_waterfront",
+            "from": 1.0,
+            "dur": 0.85,
+            "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card"
     },
     {
       "id": "w1-03",
       "date": "2026-11-06",
       "theme": "echoes-nearby",
-      "video": "w1-03_nearby_v3.mp4",
+      "video": "w1-03_nearby_v4.mp4",
       "screens": [
         [
           "What did someone leave",
@@ -221,48 +217,43 @@
       "shots": [
         [
           {
-            "still": "map_2d",
+            "clip": "ai_alley_orb",
+            "from": 0.0,
             "dur": 3.0,
-            "zoom": [
-              1.0,
-              1.18
-            ],
-            "pan": [
-              0,
-              60
-            ]
+            "speed": 1.0
           }
         ],
         [
           {
-            "clip": "promo_hands",
-            "from": 0.0,
-            "dur": 0.9,
+            "clip": "ai_phone_map",
+            "from": 0.3,
+            "dur": 1.3,
             "speed": 1.0
           },
           {
             "clip": "ar_voicecard",
-            "from": 0.5,
-            "dur": 1.7,
+            "from": 0.0,
+            "dur": 1.3,
             "speed": 1.0
           }
         ],
         [
           {
-            "clip": "ar_reflection",
-            "from": 3.0,
+            "clip": "ai_woman_listen",
+            "from": 0.0,
             "dur": 2.6,
             "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card_b"
     },
     {
       "id": "w1-04",
       "date": "2026-11-07",
       "theme": "weekend-prompt",
-      "video": "w1-04_weekend_v3.mp4",
+      "video": "w1-04_weekend_v4.mp4",
       "screens": [
         [
           "Where would you",
@@ -301,42 +292,43 @@
       "shots": [
         [
           {
-            "still": "portal_promenade",
+            "clip": "ai_forest_wave",
+            "from": 0.5,
             "dur": 3.0,
-            "zoom": [
-              1.05,
-              1.0
-            ],
-            "pan": [
-              0,
-              0
-            ]
+            "speed": 1.0
           }
         ],
         [
           {
-            "clip": "ar_portals",
-            "from": 0.0,
+            "clip": "ai_cafe_wave",
+            "from": 1.5,
             "dur": 2.6,
-            "speed": 0.45
+            "speed": 1.0
           }
         ],
         [
           {
-            "clip": "ar_voicecard",
-            "from": 0.0,
-            "dur": 2.6,
+            "clip": "ai_beanie_raise",
+            "from": 5.0,
+            "dur": 1.5,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_reflection",
+            "from": 1.0,
+            "dur": 1.1,
             "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card"
     },
     {
       "id": "w1-05",
       "date": "2026-11-08",
       "theme": "reflections",
-      "video": "w1-05_reflections_v3.mp4",
+      "video": "w1-05_reflections_v4.mp4",
       "screens": [
         [
           "What if a video",
@@ -375,10 +367,16 @@
       "shots": [
         [
           {
-            "clip": "ar_reflection",
-            "from": 0.9,
+            "still": "portal_promenade",
             "dur": 3.0,
-            "speed": 1.0
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              0,
+              -40
+            ]
           }
         ],
         [
@@ -391,20 +389,21 @@
         ],
         [
           {
-            "clip": "ar_reflection",
-            "from": 8.4,
+            "clip": "ai_beanie_raise",
+            "from": 0.5,
             "dur": 2.6,
             "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card_b"
     },
     {
       "id": "w1-06",
       "date": "2026-11-09",
       "theme": "privacy-control",
-      "video": "w1-06_control_v3.mp4",
+      "video": "w1-06_control_v4.mp4",
       "screens": [
         [
           "Who should hear",
@@ -442,10 +441,18 @@
       "shots": [
         [
           {
+            "clip": "ai_couple_bubble",
+            "from": 2.0,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
             "clip": "ar_voicecard",
             "from": 0.0,
-            "dur": 3.0,
-            "speed": 0.9
+            "dur": 2.6,
+            "speed": 1.0
           }
         ],
         [
@@ -461,29 +468,16 @@
               0
             ]
           }
-        ],
-        [
-          {
-            "still": "map_3d",
-            "dur": 2.6,
-            "zoom": [
-              1.0,
-              1.1
-            ],
-            "pan": [
-              0,
-              -60
-            ]
-          }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card"
     },
     {
       "id": "w1-07",
       "date": "2026-11-10",
       "theme": "first-echo-ideas",
-      "video": "w1-07_ideas_v3.mp4",
+      "video": "w1-07_ideas_v4.mp4",
       "screens": [
         [
           "What would you say",
@@ -526,50 +520,45 @@
       "shots": [
         [
           {
-            "still": "portal_waterfront",
+            "clip": "ai_beanie_raise",
+            "from": 2.0,
             "dur": 3.0,
-            "zoom": [
-              1.12,
-              1.0
-            ],
-            "pan": [
-              0,
-              0
-            ]
+            "speed": 1.0
           }
         ],
         [
           {
-            "still": "portal_promenade",
+            "clip": "ai_city_grid",
+            "from": 3.5,
             "dur": 2.6,
-            "zoom": [
-              1.0,
-              1.08
-            ],
-            "pan": [
-              0,
-              -40
-            ]
+            "speed": 1.0
           }
         ],
         [
+          {
+            "clip": "ai_cafe_wave",
+            "from": 4.5,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_alley_orb",
+            "from": 2.0,
+            "dur": 1.4,
+            "speed": 1.0
+          },
           {
             "clip": "ar_portals",
             "from": 0.0,
-            "dur": 2.6,
-            "speed": 0.45
-          }
-        ],
-        [
-          {
-            "clip": "ar_reflection",
-            "from": 5.4,
-            "dur": 2.6,
+            "dur": 1.2,
             "speed": 1.0
           }
         ]
       ],
-      "renderer": "render2.py"
+      "renderer": "render2.py",
+      "end": "end_card_b"
     }
   ],
   "cta": {
