@@ -1,0 +1,820 @@
+{
+  "week": "2026-11-11 to 2026-11-17",
+  "language": "en",
+  "audience": "global",
+  "links": {
+    "site": "https://thesocialecho.app",
+    "app_store": "https://apps.apple.com/us/app/echoes-leave-a-mark/id6769210424",
+    "google_play": "https://play.google.com/store/apps/details?id=com.echoes.thesocialecho",
+    "download": "https://thesocialecho.app/#get"
+  },
+  "posts": [
+    {
+      "id": "w2-01",
+      "date": "2026-11-11",
+      "theme": "reflection-preview-vs-ar",
+      "video": "w2-01_preview_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "counterintuitive",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "Why won't this video play at home?",
+          "What happens if you never go back?",
+          "Why is this video locked to one street?"
+        ],
+        "counterintuitive": [
+          "Why would a video refuse to play?",
+          "Is a video you can't stream better?",
+          "Why make a video harder to watch?"
+        ],
+        "feeling": [
+          "Ever revisited a place and felt nothing?",
+          "Miss a place more than its photos?",
+          "Ever wish a spot remembered you?"
+        ],
+        "open_loop": [
+          "Where does this video actually play?",
+          "What's inside the golden portal?",
+          "Why walk to this spot to watch?"
+        ]
+      },
+      "winner": "Why won't this video play at home?",
+      "screens": [
+        [
+          "Why won't this",
+          "video play",
+          "at home?"
+        ],
+        [
+          "The map only shows",
+          "a preview."
+        ],
+        [
+          "The full Reflection plays",
+          "in AR, at the spot."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 1.0,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_2d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "pan": [
+              0,
+              -30
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_beanie_raise",
+            "from": 6.2,
+            "dur": 1.3,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_reflection",
+            "from": 8.0,
+            "dur": 1.3,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'Reflections are 10s AR videos' = definition, swipe risk at 3s -> replaced by 'map only shows a preview' (raises 'then where?'). Payoff (where it plays) moved to the last screen.",
+      "caption_versions": {
+        "specificity": "Why won't this video play at home?\n\nBecause it's a Reflection. On the map, in the feed and on a profile you only see a preview. The full video — up to 10 seconds, filmed in AR — plays only in AR, near the spot where it was recorded.\n\nTo watch it, you go there.\n\nWhich spot would you lock a video to? One word in the comments.",
+        "simplicity": "Why won't this video play at home?\n\nBecause it belongs somewhere. You see a preview on the map. The full Reflection plays only when you're there.\n\nWhich spot would you lock a video to?",
+        "pov": "Why won't this video play at home?\n\nBecause some videos shouldn't be watched from the couch. A Reflection plays in full only in AR, at the place it was filmed. Everything else gets a preview.\n\nWhich spot would you lock a video to?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#augmentedreality",
+          "#arvideo",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#augmentedreality",
+          "#arvideo",
+          "#leaveyourmark",
+          "#hiddenplaces"
+        ],
+        "facebook": [
+          "#echoes",
+          "#AR"
+        ]
+      },
+      "caption": "Why won't this video play at home?\n\nBecause it's a Reflection. On the map, in the feed and on a profile you only see a preview. The full video — up to 10 seconds, filmed in AR — plays only in AR, near the spot where it was recorded.\n\nTo watch it, you go there.\n\nWhich spot would you lock a video to? One word in the comments.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-02",
+      "date": "2026-11-12",
+      "theme": "voice-comments",
+      "video": "w2-02_replies_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "feeling",
+      "caption_style": "simplicity",
+      "hook_drafts": {
+        "tension": [
+          "Did they even read your post?",
+          "Who replies 'lol' and means it?",
+          "Why do comments feel so empty?"
+        ],
+        "counterintuitive": [
+          "Is typing the worst way to reply?",
+          "Can a GIF say more than a paragraph?",
+          "Is 'haha' killing your chats?"
+        ],
+        "feeling": [
+          "Ever read “nice” and felt nothing?",
+          "Miss hearing your friend laugh?",
+          "Ever reread a reply looking for tone?"
+        ],
+        "open_loop": [
+          "What's the best reply you can leave?",
+          "Which reply would you want to get?",
+          "What did this echo get as a reply?"
+        ]
+      },
+      "winner": "Ever read “nice” and felt nothing?",
+      "screens": [
+        [
+          "Ever read “nice”",
+          "and felt nothing?"
+        ],
+        [
+          "Now imagine",
+          "hearing them laugh."
+        ],
+        [
+          "On echoes, a reply",
+          "can be your voice."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_waterfront",
+            "from": 0.0,
+            "dur": 3.0,
+            "speed": 0.9
+          }
+        ],
+        [
+          {
+            "clip": "ai_woman_listen",
+            "from": 0.9,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_finger_record",
+            "from": 0.0,
+            "dur": 0.55,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_voicecard",
+            "from": 0.2,
+            "dur": 2.05,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 had a 4th screen 'Or a GIF. Or text.' = list filler after the payoff; cut to caption. 'Now imagine' screen kept because it flips the feeling before the reveal.",
+      "caption_versions": {
+        "specificity": "Ever read “nice” and felt nothing?\n\nOn echoes every comment can be a voice note, a GIF or text — on echoes left at real places and on posts in the feed.\n\nVoice or text: which reply would you rather get?",
+        "simplicity": "Ever read “nice” and felt nothing?\n\nOn echoes you can reply with your voice. Or a GIF. Or text. Whatever actually says it.\n\nVoice reply or text reply: which would you rather get? Tell us below.",
+        "pov": "Ever read “nice” and felt nothing?\n\nText is the laziest way to say you care. On echoes you can comment with your voice — so they hear that you meant it.\n\nVoice or text: which would you rather get?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#voicemessage",
+          "#friendship",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#voicemessage",
+          "#friendship",
+          "#voicenotes",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes"
+        ]
+      },
+      "caption": "Ever read “nice” and felt nothing?\n\nOn echoes you can reply with your voice. Or a GIF. Or text. Whatever actually says it.\n\nVoice reply or text reply: which would you rather get? Tell us below.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-03",
+      "date": "2026-11-13",
+      "theme": "series-if-this-place-could-talk-ep1-bench",
+      "video": "w2-03_bench_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "open_loop",
+      "caption_style": "pov",
+      "series": "If this place could talk #1",
+      "hook_drafts": {
+        "tension": [
+          "Who sat on this bench before you?",
+          "What did this bench hear last night?",
+          "What's still on this bench?"
+        ],
+        "counterintuitive": [
+          "Do benches remember people?",
+          "Is a bench a better diary than an app?",
+          "Why do places keep secrets better?"
+        ],
+        "feeling": [
+          "Ever sit somewhere and wonder who else did?",
+          "Ever feel a place knew you?",
+          "Miss a bench you'll never sit on again?"
+        ],
+        "open_loop": [
+          "If this bench could talk, what would it say?",
+          "What's waiting at this bench?",
+          "Who left a voice on this bench?"
+        ]
+      },
+      "winner": "If this bench could talk, what would it say?",
+      "screens": [
+        [
+          "If this bench",
+          "could talk, what",
+          "would it say?"
+        ],
+        [
+          "Thousands sat here.",
+          "None of them stayed."
+        ],
+        [
+          "Unless someone",
+          "left an echo."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_bench_ui",
+            "from": 0.0,
+            "dur": 2.1,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_orb_pavement",
+            "from": 0.6,
+            "dur": 0.9,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "portal_promenade",
+            "dur": 2.6,
+            "zoom": [
+              1.15,
+              1.0
+            ],
+            "pan": [
+              0,
+              30
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 2.6,
+            "speed": 0.45
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'Record a voice note where you are' = explanation at the moment of curiosity -> swipe. Replaced with a tension line ('none of them stayed') so the reveal lands on the last screen.",
+      "caption_versions": {
+        "specificity": "If this bench could talk, what would it say?\n\nOn echoes you record a short voice note on the spot and it stays pinned to that bench on the map. Anyone who walks near it can listen.\n\nEpisode 1 of “If this place could talk”. A new place every Friday — which one should be next?",
+        "simplicity": "If this bench could talk, what would it say?\n\nLeave a voice note there. The bench keeps it.\n\nEpisode 1 of “If this place could talk” — a new place every Friday. Which place next?",
+        "pov": "If this bench could talk, what would it say?\n\nPlaces hear everything and keep nothing. We think that's a waste.\n\nOn echoes you leave a short voice note right where you are, and it stays there for whoever sits down next.\n\nEpisode 1 of “If this place could talk” — a new place every Friday. Follow so you don't miss it, and comment the place you want next."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#ifthisplacecouldtalk",
+          "#parkbench",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#ifthisplacecouldtalk",
+          "#parkbench",
+          "#leaveyourmark",
+          "#voicenotes"
+        ],
+        "facebook": [
+          "#echoes",
+          "#ifthisplacecouldtalk"
+        ]
+      },
+      "caption": "If this bench could talk, what would it say?\n\nPlaces hear everything and keep nothing. We think that's a waste.\n\nOn echoes you leave a short voice note right where you are, and it stays there for whoever sits down next.\n\nEpisode 1 of “If this place could talk” — a new place every Friday. Follow so you don't miss it, and comment the place you want next.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-04",
+      "date": "2026-11-14",
+      "theme": "8-languages",
+      "video": "w2-04_languages_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "open_loop",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "Would your grandma understand this app?",
+          "Why are most apps English-only?",
+          "Is your language missing again?"
+        ],
+        "counterintuitive": [
+          "Is your voice the best translator?",
+          "Why does a voice app need 8 languages?",
+          "Does an accent belong on a map?"
+        ],
+        "feeling": [
+          "Ever had to switch your phone to English?",
+          "Miss hearing your language abroad?",
+          "Ever explained an app to your parents?"
+        ],
+        "open_loop": [
+          "Can you spot your language in 3 seconds?",
+          "Which of these 8 is yours?",
+          "Can you read all 8 of these?"
+        ]
+      },
+      "winner": "Can you spot your language in 3 seconds?",
+      "screens": [
+        [
+          "Can you spot your",
+          "language in",
+          "3 seconds?"
+        ],
+        [
+          "English. Română.",
+          "Français. Italiano."
+        ],
+        [
+          "Español. Русский.",
+          "Magyar. Ελληνικά."
+        ],
+        [
+          "echoes speaks all 8.",
+          "Your voice speaks yours."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "promo_aerial",
+            "from": 0.0,
+            "dur": 2.2,
+            "speed": 1.0
+          },
+          {
+            "clip": "promo_hands",
+            "from": 0.0,
+            "dur": 0.8,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_city_grid",
+            "from": 5.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_3d",
+            "dur": 2.6,
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "pan": [
+              0,
+              30
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_voicecard",
+            "from": 0.5,
+            "dur": 1.3,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_woman_listen",
+            "from": 2.2,
+            "dur": 1.3,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "The hook itself is a game, so the language screens ARE the content — no explanation screen. Split 8 names over 2 screens (4 each) so viewers keep hunting; payoff line last.",
+      "caption_versions": {
+        "specificity": "Can you spot your language in 3 seconds?\n\nechoes is available in 8: English, Română, Français, Italiano, Español, Русский, Magyar and Ελληνικά.\n\nYour echoes are in your own voice — in whatever language you speak.\n\nWhich one's yours? Drop it in the comments.",
+        "simplicity": "Can you spot your language in 3 seconds?\n\nechoes speaks 8 of them. Your voice speaks yours.\n\nWhich one's yours?",
+        "pov": "Can you spot your language in 3 seconds?\n\nA voice app that only speaks English misses the point. echoes runs in 8 languages — and every echo is in yours.\n\nWhich one's yours?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#languages",
+          "#multilingual",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#languages",
+          "#multilingual",
+          "#polyglot",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#languages"
+        ]
+      },
+      "caption": "Can you spot your language in 3 seconds?\n\nechoes is available in 8: English, Română, Français, Italiano, Español, Русский, Magyar and Ελληνικά.\n\nYour echoes are in your own voice — in whatever language you speak.\n\nWhich one's yours? Drop it in the comments.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-05",
+      "date": "2026-11-15",
+      "theme": "birthdays",
+      "video": "w2-05_birthday_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "feeling",
+      "caption_style": "simplicity",
+      "hook_drafts": {
+        "tension": [
+          "Who forgot your birthday last year?",
+          "Will they remember this time?",
+          "Who forgets your birthday every year?"
+        ],
+        "counterintuitive": [
+          "Is a 9am reminder the best gift?",
+          "Why do friends forget but apps don't?",
+          "Is a voice better than a present?"
+        ],
+        "feeling": [
+          "Ever waited all day for one birthday message?",
+          "Ever checked your phone again on your birthday?",
+          "Hate being the one who forgot?"
+        ],
+        "open_loop": [
+          "What does your friend get at 9:00?",
+          "What happens at 9:00 on your birthday?",
+          "Where would you hide a birthday wish?"
+        ]
+      },
+      "winner": "Ever waited all day for one birthday message?",
+      "screens": [
+        [
+          "Ever waited all day",
+          "for one birthday",
+          "message?"
+        ],
+        [
+          "On echoes, friends",
+          "get a reminder at 9:00."
+        ],
+        [
+          "Then say it out loud,",
+          "where you first met."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_street_orb",
+            "from": 0.0,
+            "dur": 1.5,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_phone_map",
+            "from": 1.0,
+            "dur": 1.5,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_2d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              20,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_couple_bubble",
+            "from": 4.0,
+            "dur": 1.4,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_voicecard",
+            "from": 1.0,
+            "dur": 1.2,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 3 'Only people you allow see it' = privacy detail, low tension, moved to caption. Ending now on the emotional payoff (a voice echo at the place you met).",
+      "caption_versions": {
+        "specificity": "Ever waited all day for one birthday message?\n\nOn echoes, friends get a birthday reminder at 9:00 their local time. Your birthday is shown only to the people you allow.\n\nThen go further: leave a friends-only voice echo at the place you first met.\n\nTag the friend who always forgets.",
+        "simplicity": "Ever waited all day for one birthday message?\n\nOn echoes, friends get a reminder at 9:00 their time — and only people you allow can see your birthday.\n\nEven better: leave a voice echo at the place you first met, set to friends only.\n\nTag the friend who always forgets.",
+        "pov": "Ever waited all day for one birthday message?\n\nA “hbd” is not a birthday wish. On echoes your friends get a reminder at 9:00 — and they can say it out loud, at the place you met.\n\nTag the friend who always forgets."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#birthday",
+          "#bestfriend",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#birthday",
+          "#bestfriends",
+          "#friendship",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#birthday"
+        ]
+      },
+      "caption": "Ever waited all day for one birthday message?\n\nOn echoes, friends get a reminder at 9:00 their time — and only people you allow can see your birthday.\n\nEven better: leave a voice echo at the place you first met, set to friends only.\n\nTag the friend who always forgets.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-06",
+      "date": "2026-11-16",
+      "theme": "roadmap-trails-hunts",
+      "video": "w2-06_trails_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "tension",
+      "caption_style": "pov",
+      "hook_drafts": {
+        "tension": [
+          "Would you follow a trail of voices across your city?",
+          "Could you find every voice in a city?",
+          "How far would you walk for a voice?"
+        ],
+        "counterintuitive": [
+          "Is your city the best game board?",
+          "Is getting lost the point?",
+          "Why play on a screen when the city is one?"
+        ],
+        "feeling": [
+          "Miss treasure hunts from when you were a kid?",
+          "Ever walked a city with no plan and loved it?",
+          "Bored of the same three streets?"
+        ],
+        "open_loop": [
+          "Where should the first trail start?",
+          "What's at the end of this trail?",
+          "Which city goes first?"
+        ]
+      },
+      "winner": "Would you follow a trail of voices across your city?",
+      "screens": [
+        [
+          "Would you follow a",
+          "trail of voices",
+          "across your city?"
+        ],
+        [
+          "Echo trails and",
+          "scavenger hunts."
+        ],
+        [
+          "Planned next.",
+          "Which city first?"
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "still": "portal_waterfront",
+            "dur": 3.0,
+            "zoom": [
+              1.15,
+              1.0
+            ],
+            "pan": [
+              0,
+              30
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_forest_wave",
+            "from": 4.0,
+            "dur": 1.3,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_alley_orb",
+            "from": 3.5,
+            "dur": 1.3,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_3d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.15
+            ],
+            "pan": [
+              -30,
+              0
+            ]
+          }
+        ]
+      ],
+      "retention_notes": "v0 had 'Coming to echoes' (vague, implies a date) -> 'Planned next' per site wording; the comment question moved onto the last screen so the payoff is the viewer's turn.",
+      "caption_versions": {
+        "specificity": "Would you follow a trail of voices across your city?\n\nOn the echoes roadmap, planned next: echo trails and scavenger hunts, plus a portal for local places. No dates promised yet.\n\nWhich city should get the first trail?",
+        "simplicity": "Would you follow a trail of voices across your city?\n\nEcho trails and scavenger hunts are planned next on echoes. No dates yet.\n\nWhich city first?",
+        "pov": "Would you follow a trail of voices across your city?\n\nWe think a city is the best game board there is. That's why echo trails and scavenger hunts are planned next on echoes — no dates promised yet.\n\nWhich city should get the first trail? Comment yours."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#scavengerhunt",
+          "#citywalk",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#scavengerhunt",
+          "#citywalk",
+          "#exploreyourcity",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#scavengerhunt"
+        ]
+      },
+      "caption": "Would you follow a trail of voices across your city?\n\nWe think a city is the best game board there is. That's why echo trails and scavenger hunts are planned next on echoes — no dates promised yet.\n\nWhich city should get the first trail? Comment yours.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w2-07",
+      "date": "2026-11-17",
+      "theme": "ar-view-room",
+      "video": "w2-07_room_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "counterintuitive",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "Who was standing here before you?",
+          "How many voices are in this room?",
+          "What did you just walk past?"
+        ],
+        "counterintuitive": [
+          "Is the room you're in really empty?",
+          "Is an empty street ever empty?",
+          "Can a room hold a voice?"
+        ],
+        "feeling": [
+          "Ever felt a place was full of stories?",
+          "Ever sensed someone was here before?",
+          "Ever stood somewhere and felt less alone?"
+        ],
+        "open_loop": [
+          "What would your camera see here?",
+          "What's floating in this room right now?",
+          "Look closer: what's on the floor?"
+        ]
+      },
+      "winner": "Is the room you're in really empty?",
+      "screens": [
+        [
+          "Is the room",
+          "you're in really",
+          "empty?"
+        ],
+        [
+          "Lift your camera.",
+          "Look again."
+        ],
+        [
+          "Golden rings. Voices",
+          "left right where you are."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_cafe_wave",
+            "from": 0.0,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "promo_hands",
+            "from": 0.0,
+            "dur": 0.9,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 1.7,
+            "speed": 0.65
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 2.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "Cut v0 screen 'echoes has an AR view' (feature label). Screen 2 is now an instruction ('Look again') that pays off visually on the cut to real AR footage.",
+      "caption_versions": {
+        "specificity": "Is the room you're in really empty?\n\nOpen echoes, switch to AR and lift your camera. Echoes left nearby show up around you — golden rings, floating spheres — each one a voice someone left at that exact spot.\n\nWhere's the last place you'd expect to find one?",
+        "simplicity": "Is the room you're in really empty?\n\nSwitch echoes to AR and look again. Nearby echoes show up right where they were left.\n\nWhere would you check first?",
+        "pov": "Is the room you're in really empty?\n\nEvery place has been somebody's place. echoes' AR view just lets you see the voices they left there.\n\nWhere would you check first?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#augmentedreality",
+          "#arapp",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#augmentedreality",
+          "#arapp",
+          "#hiddenstories",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#AR"
+        ]
+      },
+      "caption": "Is the room you're in really empty?\n\nOpen echoes, switch to AR and lift your camera. Echoes left nearby show up around you — golden rings, floating spheres — each one a voice someone left at that exact spot.\n\nWhere's the last place you'd expect to find one?",
+      "renderer": "render2.py"
+    }
+  ],
+  "cta": {
+    "instagram": "Free on iPhone & Android — link in bio: thesocialecho.app/#get",
+    "tiktok": "Free on iPhone & Android — link in bio: thesocialecho.app/#get",
+    "facebook": "Free on iPhone & Android: https://thesocialecho.app/#get"
+  },
+  "hook_rule": "First screen is a question hook, visible from frame 0; the caption's first line is the same question."
+}
