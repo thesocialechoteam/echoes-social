@@ -1,0 +1,827 @@
+{
+  "week": "2026-11-18 to 2026-11-24",
+  "language": "en",
+  "audience": "global",
+  "links": {
+    "site": "https://thesocialecho.app",
+    "app_store": "https://apps.apple.com/us/app/echoes-leave-a-mark/id6769210424",
+    "google_play": "https://play.google.com/store/apps/details?id=com.echoes.thesocialecho",
+    "download": "https://thesocialecho.app/#get"
+  },
+  "posts": [
+    {
+      "id": "w3-01",
+      "date": "2026-11-18",
+      "theme": "echo-for-specific-people",
+      "video": "w3-01_oneperson_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "feeling",
+      "caption_style": "simplicity",
+      "hook_drafts": {
+        "tension": [
+          "Who shouldn't hear what you said?",
+          "Can a message wait for one person?",
+          "Would they find it before anyone else?"
+        ],
+        "counterintuitive": [
+          "Is public the loneliest way to post?",
+          "Why tell everyone what's for one?",
+          "Is the best audience one person?"
+        ],
+        "feeling": [
+          "Ever posted something just for one person?",
+          "Ever hoped one person would notice?",
+          "Ever posted a song lyric for one person?"
+        ],
+        "open_loop": [
+          "Who is this voice note waiting for?",
+          "Why can't you hear this echo?",
+          "Who will this spot play it for?"
+        ]
+      },
+      "winner": "Ever posted something just for one person?",
+      "screens": [
+        [
+          "Ever posted",
+          "something just for",
+          "one person?"
+        ],
+        [
+          "Everyone else",
+          "saw it too."
+        ],
+        [
+          "Leave it where you met.",
+          "Only they can hear it."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_woman_smile",
+            "from": 0.0,
+            "dur": 1.6,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_phone_map",
+            "from": 0.5,
+            "dur": 1.4,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_2d",
+            "dur": 2.6,
+            "zoom": [
+              1.15,
+              1.0
+            ],
+            "pan": [
+              20,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_orb_pavement",
+            "from": 0.2,
+            "dur": 1.2,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_voicecard",
+            "from": 1.0,
+            "dur": 1.4,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'On echoes you can choose who hears it' = feature line at 3s, swipe risk -> replaced with 'Everyone else saw it too.' (twists the knife, viewer wants the fix). Payoff (only they can hear it, at the place) on the last screen. Cut a 4th screen about visibility settings (filler).",
+      "caption_versions": {
+        "specificity": "Ever posted something just for one person?\n\nAnd then everyone else saw it too.\n\nOn echoes you can leave a voice echo for specific people only, at the place that means something to the two of you. Everyone else walks past. They hear it when they get there.\n\nWho would you leave one for? Just their initial in the comments.",
+        "simplicity": "Ever posted something just for one person?\n\nOn echoes you don't have to post it to everyone. Leave your voice where you met, and only they can hear it.\n\nWho would it be for? Just their initial in the comments.",
+        "pov": "Ever posted something just for one person?\n\nThe things that matter most were never meant for everyone. That's why an echo can be left for specific people only, right at the place it belongs.\n\nWho would yours be for? Just their initial in the comments."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#voicenote",
+          "#unsentmessages",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#voicenote",
+          "#unsentmessages",
+          "#leaveyourmark",
+          "#forsomeone"
+        ],
+        "facebook": [
+          "#echoes",
+          "#voicenote"
+        ]
+      },
+      "caption": "Ever posted something just for one person?\n\nOn echoes you don't have to post it to everyone. Leave your voice where you met, and only they can hear it.\n\nWho would it be for? Just their initial in the comments.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-02",
+      "date": "2026-11-19",
+      "theme": "what-it-costs-free",
+      "video": "w3-02_free_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "counterintuitive",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "What's the catch with a free echo?",
+          "How much would you pay to be heard here?",
+          "Why is nobody charging for this?"
+        ],
+        "counterintuitive": [
+          "What does it cost to leave your voice here?",
+          "Is the best part of this app free?",
+          "Why is the only paid thing a video?"
+        ],
+        "feeling": [
+          "Ever deleted an app at the paywall?",
+          "Tired of apps asking for your card?",
+          "Ever hit a paywall mid-moment?"
+        ],
+        "open_loop": [
+          "Which part of echoes isn't free?",
+          "What do you get 3 of every month?",
+          "What's the one thing you'd pay for here?"
+        ]
+      },
+      "winner": "What does it cost to leave your voice here?",
+      "screens": [
+        [
+          "What does it cost",
+          "to leave your voice",
+          "here?"
+        ],
+        [
+          "Leaving, listening,",
+          "replying: nothing."
+        ],
+        [
+          "3 AR Reflections",
+          "free every 30 days."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_street_orb",
+            "from": 0.3,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_finger_record",
+            "from": 0.0,
+            "dur": 0.55,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_voicecard",
+            "from": 0.3,
+            "dur": 2.05,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 2.5,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 opened screen 2 with 'echoes is free on iPhone & Android' = expected answer, no pull -> replaced with the list 'Leaving, listening, replying: nothing.' so the viewer waits for the exception. The exception (Reflections, 3 free every 30 days) is the payoff on the last screen. Credits detail moved to the caption.",
+      "caption_versions": {
+        "specificity": "What does it cost to leave your voice here?\n\nNothing. On echoes, leaving an echo, listening, commenting and messaging are free.\n\nThe one thing that's counted: Reflections, short AR videos (up to 10 seconds) that play in full only at their spot. Everyone gets 3 free in any 30 days; extra credits are optional, in-app.\n\nWhere would you spend your 3? One place in the comments.",
+        "simplicity": "What does it cost to leave your voice here?\n\nNothing. Echoes are free to leave and free to hear. You also get 3 AR Reflections free every 30 days.\n\nWhere would you spend your 3?",
+        "pov": "What does it cost to leave your voice here?\n\nYour voice shouldn't sit behind a paywall. On echoes, leaving and hearing echoes is free, and so are your first 3 AR Reflections every 30 days.\n\nWhere would you spend your 3?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#freeapps",
+          "#augmentedreality",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#freeapps",
+          "#augmentedreality",
+          "#arvideo",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#freeapps"
+        ]
+      },
+      "caption": "What does it cost to leave your voice here?\n\nNothing. On echoes, leaving an echo, listening, commenting and messaging are free.\n\nThe one thing that's counted: Reflections, short AR videos (up to 10 seconds) that play in full only at their spot. Everyone gets 3 free in any 30 days; extra credits are optional, in-app.\n\nWhere would you spend your 3? One place in the comments.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-03",
+      "date": "2026-11-20",
+      "theme": "series-if-this-place-could-talk-river",
+      "video": "w3-03_river_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "open_loop",
+      "caption_style": "pov",
+      "hook_drafts": {
+        "tension": [
+          "What did this river hear at 2 a.m.?",
+          "Who cried on this railing last night?",
+          "How many goodbyes happened right here?"
+        ],
+        "counterintuitive": [
+          "Is a river the best listener in town?",
+          "Do places forget faster than people?",
+          "Is this railing sadder than your phone?"
+        ],
+        "feeling": [
+          "Ever said goodbye by the water?",
+          "Ever made a call you'll never forget here?",
+          "Ever stood here and felt it all at once?"
+        ],
+        "open_loop": [
+          "If this river could talk, who would it miss?",
+          "What's the last thing this river heard?",
+          "Which voice is still on this railing?"
+        ]
+      },
+      "winner": "If this river could talk, who would it miss?",
+      "screens": [
+        [
+          "If this river",
+          "could talk, who",
+          "would it miss?"
+        ],
+        [
+          "Proposals. Goodbyes.",
+          "Late-night calls."
+        ],
+        [
+          "It heard every one.",
+          "Kept none."
+        ],
+        [
+          "Leave yours. It stays",
+          "right by the water."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_waterfront",
+            "from": 0.0,
+            "dur": 1.8,
+            "speed": 1.0
+          },
+          {
+            "still": "portal_waterfront",
+            "dur": 1.2,
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_city_grid",
+            "from": 2.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "portal_promenade",
+            "dur": 2.6,
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "pan": [
+              0,
+              20
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ar_reflection",
+            "from": 6.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "Series format (If this place could talk). The bench episode never aired (Metricool limit), so this is the first one that goes out: caption says Episode 1. v0 screen 2 'Rivers hear everything' restated the hook -> replaced by three concrete moments (proposals, goodbyes, calls). Screen 3 'Kept none' creates the loss; payoff (leave yours, it stays) is last. Each screen is a story beat, not a feature.",
+      "caption_versions": {
+        "specificity": "If this river could talk, who would it miss?\n\nProposals. Goodbyes. Calls made at 2 a.m. with the city lights on the water. On echoes you leave a short voice note right at the railing, and it stays at that spot for the next person who stops.\n\nEpisode 1 of “If this place could talk”: a new place every Friday. Follow for episode 2.",
+        "simplicity": "If this river could talk, who would it miss?\n\nIt heard every proposal and every goodbye. It kept none. Leave yours on echoes and it stays by the water.\n\nNew place every Friday. Follow for the next one.",
+        "pov": "If this river could talk, who would it miss?\n\nProposals. Goodbyes. Calls made at 2 a.m. with the city lights on the water. A river hears all of it and keeps none of it. We think that's the saddest waste in every city.\n\nOn echoes you leave a short voice note right at the railing, and it stays there for whoever stops next.\n\nEpisode 1 of “If this place could talk”: a new place every Friday. Follow for episode 2, and comment the place that should talk next."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#ifthisplacecouldtalk",
+          "#riverside",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#ifthisplacecouldtalk",
+          "#riverside",
+          "#citynights",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#ifthisplacecouldtalk"
+        ]
+      },
+      "caption": "If this river could talk, who would it miss?\n\nProposals. Goodbyes. Calls made at 2 a.m. with the city lights on the water. A river hears all of it and keeps none of it. We think that's the saddest waste in every city.\n\nOn echoes you leave a short voice note right at the railing, and it stays there for whoever stops next.\n\nEpisode 1 of “If this place could talk”: a new place every Friday. Follow for episode 2, and comment the place that should talk next.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-04",
+      "date": "2026-11-21",
+      "theme": "first-echo-in-your-city",
+      "video": "w3-04_firstvoice_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "tension",
+      "caption_style": "simplicity",
+      "hook_drafts": {
+        "tension": [
+          "Is your city still silent?",
+          "Who claims your street first?",
+          "What if someone beats you to your corner?"
+        ],
+        "counterintuitive": [
+          "Is an empty map a good thing?",
+          "Is being first better than being liked?",
+          "Why is the empty street the best one?"
+        ],
+        "feeling": [
+          "Ever wanted to be the first to find a place?",
+          "Ever felt your city has no voice?",
+          "Miss the feeling of a blank page?"
+        ],
+        "open_loop": [
+          "Whose voice will this street hear first?",
+          "What will the first echo here say?",
+          "Which street lights up next?"
+        ]
+      },
+      "winner": "Is your city still silent?",
+      "screens": [
+        [
+          "Is your city",
+          "still silent?"
+        ],
+        [
+          "Every map starts",
+          "with one echo."
+        ],
+        [
+          "Someone has to",
+          "leave the first."
+        ],
+        [
+          "Be the first voice",
+          "on your street."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "still": "map_3d",
+            "dur": 3.0,
+            "zoom": [
+              1.2,
+              1.05
+            ],
+            "pan": [
+              -30,
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "clip": "ai_city_grid",
+            "from": 0.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_alley_orb",
+            "from": 0.5,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_finger_record",
+            "from": 0.0,
+            "dur": 0.55,
+            "speed": 1.0
+          },
+          {
+            "still": "map_2d",
+            "dur": 2.05,
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "pan": [
+              0,
+              0
+            ]
+          }
+        ]
+      ],
+      "retention_notes": "Short 2-line hook for a fast read. v0 screen 2 'echoes is growing its first cities' = company news, swipe risk -> replaced by 'Every map starts with one echo.' Screen 3 adds the dare (someone has to), payoff = 'be the first voice on your street' + the record button. Comment prompt needs no app: city + street.",
+      "caption_versions": {
+        "specificity": "Is your city still silent?\n\nechoes is growing its first cities right now. On the 3D map, every street that has a voice started with one person who left the first echo there.\n\nComment your city and the street you'd claim first.",
+        "simplicity": "Is your city still silent?\n\nEvery map on echoes starts empty. Then someone leaves the first voice.\n\nIt could be you. Comment your city and the street you'd claim first.",
+        "pov": "Is your city still silent?\n\nThe first voice on a street matters more than the thousandth like on a post. echoes is growing its first cities now, and the map is waiting.\n\nComment your city and the street you'd claim first."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#yourcity",
+          "#citywalk",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#yourcity",
+          "#citywalk",
+          "#localstories",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#yourcity"
+        ]
+      },
+      "caption": "Is your city still silent?\n\nEvery map on echoes starts empty. Then someone leaves the first voice.\n\nIt could be you. Comment your city and the street you'd claim first.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-05",
+      "date": "2026-11-22",
+      "theme": "save-a-loved-ones-voice",
+      "video": "w3-05_voices_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "feeling",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "When did you last hear their voice?",
+          "What if you forget how they sound?",
+          "How long until a voice fades?"
+        ],
+        "counterintuitive": [
+          "Is a voice worth more than a photo?",
+          "Why do we save photos, not voices?",
+          "Are your photos missing the best part?"
+        ],
+        "feeling": [
+          "Whose voice do you wish you'd saved?",
+          "Ever replayed an old voicemail twice?",
+          "Miss the way someone said your name?"
+        ],
+        "open_loop": [
+          "Which voice would you keep forever?",
+          "What's the one sentence you'd save?",
+          "Where would their voice belong?"
+        ]
+      },
+      "winner": "Whose voice do you wish you'd saved?",
+      "screens": [
+        [
+          "Whose voice do",
+          "you wish you'd",
+          "saved?"
+        ],
+        [
+          "Their laugh. The way",
+          "they said your name."
+        ],
+        [
+          "Leave yours where",
+          "it happened. For",
+          "the people you choose."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_forest_wave",
+            "from": 2.0,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_woman_listen",
+            "from": 1.0,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ar_voicecard",
+            "from": 0.0,
+            "dur": 1.4,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 1.2,
+            "speed": 1.0
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'Photos don't keep voices' = argument, the viewer is already feeling, not debating -> replaced with two concrete sensory details (laugh, your name). Payoff on last screen: leave it at the place, choose who hears it (everyone / friends / specific people / only you, per site). Kept warm, no grief language beyond the hook.",
+      "caption_versions": {
+        "specificity": "Whose voice do you wish you'd saved?\n\nNot a video. Not a photo. Just them, talking: the laugh, the way they said your name.\n\nOn echoes you record a short voice note at the place where it happened, and you choose who can hear it: everyone, friends, specific people, or only you.\n\nWhat's one word you'd love to hear in their voice?",
+        "simplicity": "Whose voice do you wish you'd saved?\n\nSave the next one where it happened. A short voice echo, for the people you choose.\n\nWhat's one word you'd love to hear in their voice?",
+        "pov": "Whose voice do you wish you'd saved?\n\nWe keep thousands of photos and almost no voices. That's backwards. On echoes, a voice stays at the place it belongs, for the people you choose.\n\nWhat's one word you'd love to hear in their voice?"
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#voicememo",
+          "#family",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#voicememo",
+          "#family",
+          "#memories",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#family"
+        ]
+      },
+      "caption": "Whose voice do you wish you'd saved?\n\nNot a video. Not a photo. Just them, talking: the laugh, the way they said your name.\n\nOn echoes you record a short voice note at the place where it happened, and you choose who can hear it: everyone, friends, specific people, or only you.\n\nWhat's one word you'd love to hear in their voice?",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-06",
+      "date": "2026-11-23",
+      "theme": "voice-for-a-stranger-public-echo",
+      "video": "w3-06_stranger_v1.mp4",
+      "end": "end_card_b",
+      "hook_mode": "tension",
+      "caption_style": "pov",
+      "hook_drafts": {
+        "tension": [
+          "Would you leave a voice note for a stranger?",
+          "What would you tell someone you'll never meet?",
+          "Who stands on this spot after you?"
+        ],
+        "counterintuitive": [
+          "Are strangers the best people to talk to?",
+          "Is the kindest message an anonymous one?",
+          "Why is a stranger easier to be honest with?"
+        ],
+        "feeling": [
+          "Ever needed to hear one kind thing from anyone?",
+          "Ever wished a stranger had told you it's okay?",
+          "Ever felt seen by someone you never met?"
+        ],
+        "open_loop": [
+          "What did a stranger leave on this bench?",
+          "Who is this message for?",
+          "What would you hear if you stood here?"
+        ]
+      },
+      "winner": "Would you leave a voice note for a stranger?",
+      "screens": [
+        [
+          "Would you leave",
+          "a voice note for",
+          "a stranger?"
+        ],
+        [
+          "You'll never meet.",
+          "They'll stand right here."
+        ],
+        [
+          "Say the thing you",
+          "needed to hear."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_orb_pavement",
+            "from": 0.0,
+            "dur": 1.6,
+            "speed": 1.0
+          },
+          {
+            "clip": "ai_bench_ui",
+            "from": 0.6,
+            "dur": 1.4,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_beanie_raise",
+            "from": 3.5,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_finger_record",
+            "from": 0.0,
+            "dur": 0.5,
+            "speed": 1.0
+          },
+          {
+            "clip": "ar_portals",
+            "from": 0.0,
+            "dur": 2.1,
+            "speed": 0.55
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'Public echoes are visible to everyone' = settings talk -> replaced with the image of the stranger standing on the same spot (tension: who?). Last screen gives the viewer something to say (payoff = a task, not a feature). Slow-mo AR rings under the final line.",
+      "caption_versions": {
+        "specificity": "Would you leave a voice note for a stranger?\n\nA public echo on echoes stays exactly where you recorded it, and anyone who walks by can listen. You'll never know who, or when.\n\nWhat would you tell them? Under 10 words, in the comments.",
+        "simplicity": "Would you leave a voice note for a stranger?\n\nYou'll never meet. They'll stand right where you stood and hear it.\n\nWhat would you tell them? Under 10 words.",
+        "pov": "Would you leave a voice note for a stranger?\n\nThe kindest thing you can say online is the thing you say to someone you'll never meet. A public echo stays where you left it, for whoever stands there next.\n\nWhat would you tell them? Under 10 words, in the comments."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#strangers",
+          "#kindness",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#strangers",
+          "#kindness",
+          "#voicenote",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#kindness"
+        ]
+      },
+      "caption": "Would you leave a voice note for a stranger?\n\nThe kindest thing you can say online is the thing you say to someone you'll never meet. A public echo stays where you left it, for whoever stands there next.\n\nWhat would you tell them? Under 10 words, in the comments.",
+      "renderer": "render2.py"
+    },
+    {
+      "id": "w3-07",
+      "date": "2026-11-24",
+      "theme": "places-attach-a-place",
+      "video": "w3-07_cafe_v1.mp4",
+      "end": "end_card",
+      "hook_mode": "open_loop",
+      "caption_style": "specificity",
+      "hook_drafts": {
+        "tension": [
+          "Who's been talking about your café?",
+          "What did your regulars leave behind?",
+          "Is someone's voice at your table?"
+        ],
+        "counterintuitive": [
+          "Is your café on the wrong map?",
+          "Do reviews say less than one voice?",
+          "Is a star rating the worst way to remember a place?"
+        ],
+        "feeling": [
+          "Ever loved a café and told no one?",
+          "Miss a café that closed?",
+          "Ever had a table that felt like yours?"
+        ],
+        "open_loop": [
+          "What's been said about your favourite café?",
+          "What's waiting at table 4?",
+          "Which café on your street is talking?"
+        ]
+      },
+      "winner": "What's been said about your favourite café?",
+      "screens": [
+        [
+          "What's been said",
+          "about your",
+          "favourite café?"
+        ],
+        [
+          "Regulars know.",
+          "Now the map does too."
+        ],
+        [
+          "Tag the place.",
+          "Your echo stays with it."
+        ]
+      ],
+      "shots": [
+        [
+          {
+            "clip": "ai_cafe_wave",
+            "from": 4.7,
+            "dur": 3.0,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "clip": "ai_phone_map",
+            "from": 0.2,
+            "dur": 2.6,
+            "speed": 1.0
+          }
+        ],
+        [
+          {
+            "still": "map_3d",
+            "dur": 2.6,
+            "zoom": [
+              1.0,
+              1.15
+            ],
+            "pan": [
+              0,
+              -40
+            ]
+          }
+        ]
+      ],
+      "retention_notes": "v0 screen 2 'You can attach a place to any echo' = feature definition at 3s -> replaced with 'Regulars know. Now the map does too.' (keeps the 'what was said?' loop open). Payoff (tag the place, it stays with it) on last screen with the real 3D map. Facts: places can be attached to echoes and Reflections (site).",
+      "caption_versions": {
+        "specificity": "What's been said about your favourite café?\n\nOn echoes you can attach a place to an echo or a Reflection: the café, the park, the bridge. Your voice stays with that spot on the 3D map, and whoever walks in next can listen.\n\nName the café you'd leave your first echo at.",
+        "simplicity": "What's been said about your favourite café?\n\nOn echoes, a voice can be tagged to the place itself. Walk in, listen.\n\nName the café you'd leave your first echo at.",
+        "pov": "What's been said about your favourite café?\n\nStar ratings tell you nothing about a place. A voice does. On echoes you tag the place and your echo stays with it.\n\nName the café you'd leave your first echo at."
+      },
+      "hashtags": {
+        "tiktok": [
+          "#echoes",
+          "#cafe",
+          "#coffeeshop",
+          "#leaveyourmark"
+        ],
+        "instagram": [
+          "#echoes",
+          "#cafe",
+          "#coffeeshop",
+          "#localspots",
+          "#leaveyourmark"
+        ],
+        "facebook": [
+          "#echoes",
+          "#cafe"
+        ]
+      },
+      "caption": "What's been said about your favourite café?\n\nOn echoes you can attach a place to an echo or a Reflection: the café, the park, the bridge. Your voice stays with that spot on the 3D map, and whoever walks in next can listen.\n\nName the café you'd leave your first echo at.",
+      "renderer": "render2.py"
+    }
+  ],
+  "cta": {
+    "instagram": "Free on iPhone & Android — link in bio: thesocialecho.app/#get",
+    "tiktok": "Free on iPhone & Android — link in bio: thesocialecho.app/#get",
+    "facebook": "Free on iPhone & Android: https://thesocialecho.app/#get"
+  },
+  "hook_rule": "First screen is a question hook, visible from frame 0; the caption's first line is the same question."
+}
