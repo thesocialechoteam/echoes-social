@@ -54,4 +54,39 @@ Applied the audit: series launch (w2-03), no "what if" hooks, escalation screen 
 Mode mix: counterintuitive 2, feeling 2, open loop 2, tension 1. Styles: specificity 3, simplicity 2, POV 2. Compare next Monday.
 Footage note: the library is now repeating (ar_reflection, ar_voicecard, map_2d/3d, ai_beanie_raise used in both weeks); asked George for new screen recordings.
 
-Performance: to be filled in by the next weekly run.
+Performance (Metricool, pulled 2026-11-16 11:30): **none of week 2 was published.** All 16 posts from 11-11 10:00 to 11-16 10:00 are status ERROR in Metricool: "You have reached your Metricool account limit." (also likely w1-07 on TikTok, 11-10 18:00, which never appeared in analytics). The 5 still-pending posts (11-16 FB/TikTok, 11-17 ×3) will hit the same limit. George notified 2026-11-16 11:30 to raise the Metricool plan limit. Week 2 has no data → hook modes / caption styles can't be compared yet.
+
+
+## Week 3 (2026-11-18 → 2026-11-24)
+
+### Results feeding this week (final week-1 numbers, pulled 2026-11-16)
+| Post | IG views / reach / avg watch / 3s-view rate | FB views | TikTok views |
+|---|---|---|---|
+| w1-05 "What if a video only played where you filmed it?" | 125 / 104 / 4.0s / 35.6% | 52 | 772 |
+| w1-06 "Who should hear your voice?" | 16 / 10 / 3.9s / 36.4% (1 like) | 22 | 761 (2 likes) |
+| w1-07 "What would you say if you could leave it anywhere?" | 13 / 10 / 2.2s / 10.0% | 30 | not published |
+Instagram followers: 12, flat all week (0 gained / 0 lost). 0 comments, 0 saves, 0 shares on all 14 published posts.
+
+### Growth audit (Method A) — week 3
+1. **The account went silent for 6 days right after the launch push.** Week 2 never published (Metricool account limit), so the algorithm saw 0 posts after w1's ~700/post TikTok baseline. Fix: George raises the Metricool limit; this agent stops re-rendering/updating already-scheduled posts (each update creates a new post id and may count toward the limit) and schedules each week exactly once.
+2. **Open "you" prompts lose 90% of viewers in 3 seconds.** w1-04 ("Where would you leave your voice…") and w1-07 ("What would you say if…") got 0% / 10% 3s-view rate on IG, while hooks that name a concrete thing (w1-05 a video that only plays at its spot, w1-03 the corner you passed) held 33–36%. Fix: every week-3 hook names a concrete object, place or person (one person, a river, your city, a café, a stranger) and frame 0 shows it.
+3. **Feature lessons, no story, so nothing to follow.** TikTok sits at ~700–770 views on every post whatever the hook (the default test pool), 0 follows, 0 comments: the videos teach a feature and end. Fix: screens are story beats (proposals, goodbyes, late-night calls; their laugh, the way they said your name), the feature appears only as the payoff on the last screen, the series *If this place could talk* restarts on Friday (the bench episode never aired, so the river is Episode 1), and every caption ends with a no-app, few-word comment prompt.
+
+Facts re-checked on thesocialecho.app 2026-11-16 (places can be attached to echoes/Reflections; echoes for everyone/friends/specific people/only you; free to leave/listen/comment/message; 3 free Reflections per 30 days, extra credits in-app; "Now: growing the first cities"; trails/hunts and a portal for local places planned, no dates). New angles only: one specific person, cost, river (series), first voice in your city, a loved one's voice, a stranger, places/cafés.
+
+12 hook drafts per post, 3 caption versions and retention notes are in week3_posts.json. All use AI + real footage → AI label on IG + TikTok. Videos pushed to videos/ (commit cd1c6d2).
+
+**NOT SCHEDULED** — Metricool account limit reached (see week 2). Ready to schedule as soon as the limit is raised (IG Reel 10:00 · FB Reel 12:00 · TikTok 18:00, Europe/Bucharest):
+
+| Date | Post (hook) | Hook mode | Caption style | Video | Instagram | Facebook | TikTok |
+|---|---|---|---|---|---|---|---|
+| Wed 11-18 | w3-01 "Ever posted something just for one person?" | feeling | simplicity | w3-01_oneperson_v1.mp4 | – | – | – |
+| Thu 11-19 | w3-02 "What does it cost to leave your voice here?" | counterintuitive | specificity | w3-02_free_v1.mp4 | – | – | – |
+| Fri 11-20 | w3-03 "If this river could talk, who would it miss?" (series ep. 1) | open loop | POV | w3-03_river_v1.mp4 | – | – | – |
+| Sat 11-21 | w3-04 "Is your city still silent?" | tension | simplicity | w3-04_firstvoice_v1.mp4 | – | – | – |
+| Sun 11-22 | w3-05 "Whose voice do you wish you'd saved?" | feeling | specificity | w3-05_voices_v1.mp4 | – | – | – |
+| Mon 11-23 | w3-06 "Would you leave a voice note for a stranger?" | tension | POV | w3-06_stranger_v1.mp4 | – | – | – |
+| Tue 11-24 | w3-07 "What's been said about your favourite café?" | open loop | specificity | w3-07_cafe_v1.mp4 | – | – | – |
+
+Mode mix: feeling 2, open loop 2, tension 2, counterintuitive 1. Styles: specificity 3, simplicity 2, POV 2.
+Footage note: still no new recordings; the 21 library assets are now in their third week (map_2d/3d, ar_voicecard, ar_portals, ar_reflection in nearly every video). Asked George again for new screen recordings.
